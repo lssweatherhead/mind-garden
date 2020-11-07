@@ -4,12 +4,10 @@ import Reference from "./reference";
 import "./references-block.css";
 
 const ReferencesBlock = ({ references }) => {
-  console.log(references)
-
   const footer = (
     <React.Fragment>
       <p>
-        Tweet me at: <a href="https://twitter.com/lssweatherhead">@lssweatherhead</a>
+        Tweet me at: <a href="https://twitter.com/lssweatherhead" target="_blank" rel="noreferrer">@lssweatherhead</a>
       </p>
     </React.Fragment>
   );
@@ -22,11 +20,13 @@ const ReferencesBlock = ({ references }) => {
     <div className="references-block">
       <hr />
       <h3>Referenced in...</h3>
-      <div>
+      <ul>
         {references.map((ref) => (
-          <Reference node={ref} key={ref.id} />
+          <li key={ref.id}>
+            <Reference node={ref} />
+          </li>
         ))}
-      </div>
+      </ul>
       <hr />
       {footer}
     </div>

@@ -9,6 +9,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
     "gatsby": "^2.21.37",
     "gatsby-remark-double-brackets-link": "^0.1.7",
     "gatsby-remark-double-parenthesis-link": "^0.1.2",

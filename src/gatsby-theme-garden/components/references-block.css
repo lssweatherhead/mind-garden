@@ -6,3 +6,14 @@
 .references-block a:hover {
     color: #26649e
 }
+
+.references-block ul {
+    list-style: none;
+    background-color: #e4e4e4;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+
+.references-block ul a {
+    font-weight: normal;
+}
