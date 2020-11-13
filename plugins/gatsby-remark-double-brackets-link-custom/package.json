@@ -1,0 +1,12 @@
+{
+    "name": "gatsby-remark-double-brackets-link-custom",
+    "private": true,
+    "version": "0.0.1",
+    "scripts": {
+    },
+    "dependencies": {
+        "slugify": "^1.4.0",
+        "unist-util-visit": "^2.0.2"
+    }
+  }
+  

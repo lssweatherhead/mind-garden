@@ -3,7 +3,7 @@ import { LinkToStacked } from "react-stacked-pages-hook";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
 
-import "gatsby-theme-garden/src/components/reference.css";
+import "./reference.css";
 import "./custom.css";
 
 const Reference = ({ node }) => {

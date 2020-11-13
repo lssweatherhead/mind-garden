@@ -1,24 +1,32 @@
 {
-  "name": "gatsby-starter-digital-garden",
-  "private": true,
-  "version": "0.0.1",
+  "name": "gatsby-theme-garden",
+  "version": "0.1.55",
+  "description": "Gatsby theme to create a digital garden",
+  "main": "index.js",
   "scripts": {
-    "develop": "gatsby clean && gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "clean": "gatsby clean"
+    "test": "jest"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin",
+    "digital-garden",
+    "react",
+    "notes",
+    "roam-research"
+  ],
+  "author": "Mathieu Dutour <mathieu@dutour.me>",
+  "repository": {
+    "url": "https://github.com/mathieudutour/gatsby-digital-garden",
+    "directory": "packages/gatsby-theme-garden"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^2.13.13",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.32",
-    "@fortawesome/free-solid-svg-icons": "^5.15.1",
-    "@fortawesome/react-fontawesome": "^0.1.12",
-    "gatsby": "^2.21.37",
-    "gatsby-remark-double-parenthesis-link": "^0.1.2",
-    "gatsby-transformer-markdown-references": "^0.1.5",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-stacked-pages-hook": "^0.4.6",
-    "typescript": "^2.8.4",
     "@mdx-js/mdx": "^1.6.1",
     "@mdx-js/react": "^1.6.1",
     "@react-hook/window-size": "~2.0.5",
@@ -35,12 +43,20 @@
     "gatsby-remark-autolink-headers": "^2.3.7",
     "gatsby-remark-copy-linked-files": "^2.3.7",
     "gatsby-remark-double-brackets-link": "^0.1.6",
+    "gatsby-remark-double-parenthesis-link": "^0.1.2",
     "gatsby-remark-images": "^3.3.13",
     "gatsby-source-filesystem": "^2.3.8",
     "gatsby-source-roamresearch": "^0.4.1",
+    "gatsby-transformer-markdown-references": "^0.1.5",
     "react-helmet": "^6.1.0",
     "react-spring": "^8.0.27",
+    "react-stacked-pages-hook": "^0.4.4",
     "slugify": "^1.4.0",
     "use-dark-mode": "^2.3.1"
+  },
+  "devDependencies": {
+    "gatsby": "^2.22.10",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }

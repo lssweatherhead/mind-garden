@@ -1,18 +1,21 @@
 module.exports = {
   plugins: [
+    `gatsby-theme-garden-custom`,
     {
-      resolve: `gatsby-theme-garden`,
+      resolve: `gatsby-theme-garden-custom`,
       options: {
         contentPath: `${__dirname}/content/garden`,
         rootNote: `/hello`,
       },
     },
+    `gatsby-remark-double-brackets-link-custom`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
+        extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           {
-            resolve: `gatsby-remark-double-brackets-link`,
+            resolve: require.resolve(`./plugins/gatsby-remark-double-brackets-link-custom`),
             options: {
               titleToURLPath: `${__dirname}/resolve-url.js`
             },

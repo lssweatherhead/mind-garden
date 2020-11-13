@@ -1,8 +1,8 @@
 
 import React from "react";
 import { MDXProvider } from "@mdx-js/react";
-import * as components from "gatsby-theme-garden/src/components/mdx-components";
-import MDXRenderer from "gatsby-theme-garden/src/components/mdx-components/mdx-renderer";
+import * as components from "./mdx-components";
+import MDXRenderer from "./mdx-components/mdx-renderer";
 import ReferencesBlock from "./references-block";
 import { LinkToStacked } from "react-stacked-pages-hook";
 

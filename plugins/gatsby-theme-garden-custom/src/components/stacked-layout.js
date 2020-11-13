@@ -6,13 +6,13 @@ import {
 } from "react-stacked-pages-hook";
 import { dataToNote, dataToSlug } from "../utils/data-to-note";
 import Note from "./note";
-import NoteWrapper from "gatsby-theme-garden/src/components/note-wrapper";
-import Header from "gatsby-theme-garden/src/components/header";
-import SEO from "gatsby-theme-garden/src/components/seo";
+import NoteWrapper from "./note-wrapper";
+import Header from "./header";
+import SEO from "./seo";
 
-import "gatsby-theme-garden/src/components/theme.css";
-import "gatsby-theme-garden/src/components/stacked-layout.css";
-import "gatsby-theme-garden/src/components/custom.css";
+import "./theme.css";
+import "./stacked-layout.css";
+import "./custom.css";
 
 const Content = ({ windowWidth, scrollContainer, stackedPages, index }) => {
   return (
